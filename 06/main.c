@@ -7,9 +7,9 @@ int main(void)
  int denominator;
 
  printf("Enter numerator: ");
- scanf("%f", &numerator);
+ scanf("%d", &numerator);
  printf("Enter denominator: ");
- scanf("%f", &denominator);
+ scanf("%d", &denominator);
 
  if (numerator % denominator == 0)
  {
